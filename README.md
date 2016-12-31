@@ -60,4 +60,7 @@ INSERT INTO APP_USER(name,age,salary)
 VALUES ('Tom',40,50000);
  
 commit;
-           
+      
+# right click on Spriong Boot CrudAPP.java-> run configuration -> inside vm arguments pass these as params 
+-Dspring.profiles.active=prod
+      
