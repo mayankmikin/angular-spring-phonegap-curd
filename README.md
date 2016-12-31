@@ -60,7 +60,8 @@ INSERT INTO APP_USER(name,age,salary)
 VALUES ('Tom',40,50000);
  
 commit;
-      
-# right click on Spriong Boot CrudAPP.java-> run configuration -> inside vm arguments pass these as params 
+
+
+#first run maven clean and then run maven install , main purpose is to create a jar or war file  right click on Spriong Boot CrudAPP.java-> run configuration -> inside vm arguments pass these as params 
 -Dspring.profiles.active=prod
       
